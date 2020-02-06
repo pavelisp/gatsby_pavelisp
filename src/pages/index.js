@@ -1,3 +1,13 @@
 import React from "react"
+import styled from 'styled-components'
 
-export default () => <div>Hello world!</div>
+const Banana = () => {
+    return "Hello world!";
+}
+
+const Wrap = styled(Banana)`
+color: red;
+font-size: 50px;
+`
+
+export default () => <Wrap>AAA</Wrap>
